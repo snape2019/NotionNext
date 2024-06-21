@@ -125,9 +125,10 @@ const GlobalHead = props => {
       <meta property='og:image' content={image} />
       <meta property='og:site_name' content={title} />
       <meta property='og:type' content={type} />
-      <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:description' content={description} />
-      <meta name='twitter:title' content={title} />
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="lm: blog">
+      <meta name="twitter:description" content="">
+      <meta name="twitter:image" content="">
 
       <link rel='icon' href={BLOG_FAVICON} />
 
